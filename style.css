@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding: 0 7%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 7%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #1db6b1;
+}
+
+.logo img {
+    width: 92px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.list-nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 36px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav-bar li a {
+    color: #000;
+    font-size: 24px;
+    padding: 8px 12px;
+}
+
+#header .title-vic {
+    padding-top: 108px;
+}
+
+#header .title-vic p {
+    background-color: #000;
+    padding: 12px 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner img {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.slogan .title-slg {
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 42px 0 12px 0;
+}
+
+.slogan .dec {
+    text-align: center;
+    font-size: 16px;
+}
+
+#product {
+    padding-top: 136px;
+}
+
+.title-prd-new {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #1db6b1;
+    padding: 12px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.new-prd .list-product {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-prd .list-items {
+    width: 20%;
+    border: 1px solid #000;
+}
+
+.name-prd {
+    margin-top: 8px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.price {
+    margin-top: 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-contr {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items ul {
+    list-style-type: none;
+}
+
+.nav-contr li:first-child {
+    background-color: #30dd58;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-contr li:last-child {
+    background-color: #fb510f;
+    display: flex;
+    align-items: center;
+}
+
+.nav-contr li {
+    width: 50%;
+    padding: 8px 2px;
+    cursor: pointer;
+}
+
+.nav-contr li i {
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+.title-best_seller {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 48px;
+    letter-spacing: 4px;
+}
+
+.list-best_seller {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+
+#product img {
+    width: 100%;
+    height: 320px;
+}
+
+.list-best_seller .list-items {
+    width: 20%;
+    margin-right: 4px;
+    border: 1px solid #000;
+}
+
+#news{
+    padding-top: 100px;
+}
+
+.title_ {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #1db6b1;
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item .list-items {
+    width: 50%;
+    padding: 56px 72px;
+
+}
+
+.list-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.find-glass {
+    margin-top: 64px;
+}
+
+.find-glass .title {
+    display: block;
+    text-align: center;
+    color: #1db6b1;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+
+.find-glass .dec {
+    text-align: center;
+    font-size: 16px;
+}
+
+#news {
+    padding-top: 136px;
+}
+
+#news a {
+    padding: 12px 0 4px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.list-footer {
+    display: flex;
+}
+
+#footer {
+    padding: 64px 0 16px 0;
+}
+
+.list-footer .list-items {
+    width: 25%;
+    padding: 0 6px;
+}
+
+.title-footer {
+    background-color: #1db6b1;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.list-footer img {
+    position: relative;
+    width: 50%;
+    left: 16px;
+}
+
+.list-footer .dec {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.list-footer .social {
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.list-footer .social i {
+    padding: 0 6px;   
+}
+
+.list-footer .contact {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.space {
+    height: 64px;
+}
